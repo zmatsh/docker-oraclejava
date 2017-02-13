@@ -1,9 +1,9 @@
 FROM ubuntu:16.04
-MAINTAINER Ivan Sim, ihcsim@gmail.com
+MAINTAINER zhangjianxin
 
 ARG VCS_REF
 LABEL org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/ihcsim/docker-oraclejava"
+      org.label-schema.vcs-url="https://github.com/zmatsh/docker-oraclejava"
 
 RUN apt-get update && \
     apt-get install -y software-properties-common python-software-properties && \
